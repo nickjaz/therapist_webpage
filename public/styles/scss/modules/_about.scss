@@ -1,0 +1,46 @@
+/* about */
+
+.about {
+  background-color: $secondary-color;
+}
+
+.about_first {
+  display: inline-block;
+  font-size: 6vw;
+  width: 80vw;
+}
+
+.about_second {
+  display: inline-block;
+  font-size: 5vw;
+  width: 80vw;
+  font-family: $cursive-font;
+
+  li {
+    margin-bottom: $vert-sm / 4;
+  }
+}
+
+.divider_two {
+  background: url(../../../images/flower_border2.png) transparent no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 5vw;
+  width: 50%;
+  position: relative;
+  margin: $vert-sm auto;
+}
+
+.about_third {
+  display: inline-block;
+  width: 70vw;
+}
+
+.about_third img {
+  margin-top: $vert-lg;
+  width: 100%;
+}

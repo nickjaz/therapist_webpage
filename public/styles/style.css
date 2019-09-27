@@ -1,0 +1,397 @@
+html {
+  font-family: "Jaldi", sans-serif;
+  color: #383731; }
+
+section {
+  padding-top: 6%; }
+
+a {
+  text-decoration: none;
+  font-family: "Arvo", serif; }
+
+a:hover {
+  color: #787668; }
+
+/* pages */
+.page {
+  height: 100vh;
+  scroll-snap-align: start;
+  text-align: center; }
+
+#content_container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  overflow: auto; }
+
+/* header / nav  */
+.header_nav {
+  width: 100%;
+  height: 6%;
+  background-color: #f7f2d6;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  box-shadow: 1px 1px 1px #383731; }
+
+.menu_icon {
+  padding: 1vw 4vw;
+  width: 6vw;
+  height: 6vw;
+  font-size: 9vw; }
+
+.cross_icon {
+  padding: 2vw 0 0 4vw;
+  width: 100%;
+  height: 12vw;
+  font-size: 14vw; }
+
+nav {
+  position: absolute;
+  top: -100vh;
+  width: 100%;
+  height: 100vh;
+  background-color: #f7f2d6;
+  z-index: 100;
+  -webkit-transition: top 1s ease;
+  -moz-transition: top 1s ease;
+  -o-transition: top 1s ease;
+  transition: top 1s ease; }
+
+.active {
+  top: 0;
+  -webkit-transition: top 1s ease;
+  -moz-transition: top 1s ease;
+  -o-transition: top 1s ease;
+  transition: top 1s ease; }
+
+nav ul {
+  text-align: center; }
+
+nav ul li {
+  display: inline-block;
+  width: 100%;
+  margin-top: 15%;
+  font-size: 14vw; }
+
+nav ul li a {
+  color: #383731; }
+
+/* common */
+.page_header {
+  font-family: "IM Fell English", sans-serif;
+  font-size: 9vw;
+  margin-top: 15%; }
+
+.clearfix {
+  clear: both; }
+
+.show {
+  display: inline-block; }
+
+.hide {
+  display: none; }
+
+.divider {
+  color: #383731;
+  background: url(../../../images/flower_border.png) transparent no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  height: 5vw;
+  width: 85%;
+  position: relative;
+  margin: 5% auto; }
+
+@media only screen and (min-width: 480px) {
+  .services .services_description {
+    font-size: 5vw; }
+
+  .contact .contact_info {
+    font-size: 5vw; } }
+@media only screen and (min-width: 600px) {
+  .menu_icon {
+    font-size: 8vw; }
+
+  .page_header {
+    margin-top: 10%; }
+
+  .home .hero_description_container {
+    margin-top: 10%; }
+  .home .media_item {
+    width: 6vw;
+    height: 6vw;
+    font-size: 4vw; }
+  .home .media_icon {
+    margin-top: 1vw; }
+
+  .services .services_description {
+    margin-top: 5%;
+    font-size: 5.5vw; } }
+@media only screen and (min-width: 768px) {
+  .menu_icon {
+    display: none; }
+
+  nav {
+    top: 0;
+    height: auto; }
+
+  .cross_icon {
+    display: none; }
+
+  nav ul li {
+    width: 22vw;
+    margin-top: 2.5%;
+    font-size: 3vw; }
+
+  .page_header {
+    font-size: 8vw; }
+
+  .divider {
+    margin: 2.5% auto;
+    width: 60%; }
+
+  .home .hero_description_container {
+    margin-top: 5%; }
+
+  .services .services_description {
+    height: 30%;
+    font-size: 5vw; }
+  .services .square {
+    height: 24vw;
+    width: 24vw; }
+  .services .one {
+    left: 4vw; }
+  .services .two {
+    left: 38vw; }
+  .services .three {
+    right: 4vw; }
+  .services .cover_text {
+    font-size: 4vw; }
+
+  .about .about_first {
+    font-size: 5vw; }
+  .about .about_second {
+    font-size: 4.5vw; }
+  .about .about_third {
+    width: 50vw; } }
+/* about */
+.about {
+  background-color: #F9E27D; }
+
+.about_first {
+  display: inline-block;
+  font-size: 6vw;
+  width: 80vw; }
+
+.about_second {
+  display: inline-block;
+  font-size: 5vw;
+  width: 80vw;
+  font-family: "Courgette", cursive; }
+  .about_second li {
+    margin-bottom: 1.25%; }
+
+.divider_two {
+  background: url(../../../images/flower_border2.png) transparent no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 5vw;
+  width: 50%;
+  position: relative;
+  margin: 5% auto; }
+
+.about_third {
+  display: inline-block;
+  width: 70vw; }
+
+.about_third img {
+  margin-top: 10%;
+  width: 100%; }
+
+/* contact */
+.contact {
+  background-color: #F1E6B2; }
+  .contact li, .contact a {
+    color: #383731; }
+  .contact li:hover, .contact a:hover {
+    color: #787668; }
+
+.contact_info {
+  list-style: none;
+  margin-top: 5%;
+  font-size: 6vw; }
+
+.footer_image {
+  background: url(../../../images/old_tree.jpg) #666 no-repeat;
+  background-position-y: 35%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+  position: relative;
+  margin-top: 20%; }
+
+/* home page */
+.home {
+  position: relative; }
+
+.hero_image {
+  background: url(../../../images/hero2.jpg) #666 no-repeat;
+  background-position-y: 35%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 45%;
+  width: 100%;
+  position: relative;
+  opacity: 1; }
+
+.home_topper {
+  width: 100%;
+  height: 55%;
+  background-color: #f7f2d6;
+  position: absolute;
+  bottom: 0vw;
+  left: 0; }
+
+.hero_description_container {
+  font-family: "Courgette", cursive;
+  font-size: 4vw;
+  letter-spacing: 0.15rem; }
+
+.hero_description_container div {
+  padding: 0 4vw;
+  color: #383731; }
+
+.hero_media_container {
+  margin-top: 10%; }
+
+.media_list {
+  text-align: center; }
+
+.media_item {
+  display: inline-block;
+  width: 10vw;
+  height: 10vw;
+  margin: 0 4vw;
+  font-size: 8vw;
+  background-color: #383731;
+  border-radius: 50%; }
+
+.media_icon {
+  margin-top: 1.5vw;
+  color: #f7f2d6; }
+
+/* services */
+.services {
+  background-color: #E9DB9C; }
+
+.services_description {
+  margin-top: 10%;
+  padding: 0 5%;
+  font-size: 6vw;
+  height: 35%; }
+
+.service_text {
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out; }
+
+.services_container {
+  position: relative; }
+
+.square {
+  border: solid 3px #383731;
+  background-color: #fff;
+  position: absolute;
+  height: 27vw;
+  width: 27vw;
+  top: 6vh; }
+
+.one {
+  left: 2vw; }
+
+.two {
+  left: 36vw; }
+
+.three {
+  right: 2vw; }
+
+.service_img_one {
+  background: url(../../../images/many_lights.jpg) #666 no-repeat;
+  background-position-y: 35%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+.service_img_two {
+  background: url(../../../images/pink_flower_bird.jpg) #666 no-repeat;
+  background-position-y: 35%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+.service_img_three {
+  background: url(../../../images/succulents.jpg) #666 no-repeat;
+  background-position-y: 35%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #383731;
+  position: relative;
+  -webkit-transition: background-color 2s ease-out, color 1s ease-out;
+  -moz-transition: background-color 2s ease-out, color 1s ease-out;
+  -o-transition: background-color 2s ease-out, color 1s ease-out;
+  transition: background-color 2s ease-out, color 1s ease-out; }
+
+.cover:hover {
+  background-color: transparent;
+  color: #f7f2d6;
+  -webkit-transition: background-color 2s ease-out, color 1s ease-out;
+  -moz-transition: background-color 2s ease-out, color 1s ease-out;
+  -o-transition: background-color 2s ease-out, color 1s ease-out;
+  transition: background-color 2s ease-out, color 1s ease-out; }
+
+.cover_text {
+  position: absolute;
+  width: 100%;
+  top: 10vw;
+  left: 0vw;
+  font-size: 6vw;
+  font-family: "Courgette", cursive; }
+
+/*# sourceMappingURL=style.css.map */

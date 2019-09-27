@@ -1,0 +1,113 @@
+/* services */
+
+.services {
+  background-color: $primary-color;
+}
+
+.services_description {
+  margin-top: $vert-lg;
+  padding: 0 $vert-sm;
+  font-size: 6vw;
+  height: 35%;
+}
+
+.service_text {
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.services_container {
+  position: relative;
+}
+
+.square {
+  border: solid 3px $dark;
+  background-color: #fff;
+  position: absolute;
+  height: 27vw;
+  width: 27vw;
+  top: 6vh;
+}
+
+.one {
+  left: 2vw;
+}
+
+.two {
+  left: 36vw;
+}
+
+.three {
+  right: 2vw;
+}
+
+.service_img_one {
+  background: url(../../../images/many_lights.jpg) #666 no-repeat;
+  background-position-y: 35%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.service_img_two {
+  background: url(../../../images/pink_flower_bird.jpg) #666 no-repeat;
+  background-position-y: 35%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.service_img_three {
+  background: url(../../../images/succulents.jpg) #666 no-repeat;
+  background-position-y: 35%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255, .3);
+  color: $dark;
+  position: relative;
+  -webkit-transition: background-color 2s ease-out, color 1s ease-out;
+  -moz-transition: background-color 2s ease-out, color 1s ease-out;
+  -o-transition: background-color 2s ease-out, color 1s ease-out;
+  transition: background-color 2s ease-out, color 1s ease-out;
+}
+
+.cover:hover {
+  background-color: transparent;
+  color: $light;
+  -webkit-transition: background-color 2s ease-out, color 1s ease-out;
+  -moz-transition: background-color 2s ease-out, color 1s ease-out;
+  -o-transition: background-color 2s ease-out, color 1s ease-out;
+  transition: background-color 2s ease-out, color 1s ease-out;
+}
+
+.cover_text {
+  position: absolute;
+  width: 100%;
+  top: 10vw;
+  left: 0vw;
+  font-size: 6vw;
+  font-family: $cursive-font;
+}

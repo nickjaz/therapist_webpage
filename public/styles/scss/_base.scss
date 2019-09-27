@@ -1,0 +1,17 @@
+html {
+  font-family: $primary-font;
+  color: $dark;
+}
+
+section {
+  padding-top: 6%;
+}
+
+a {
+  text-decoration: none;
+  font-family: $serif-font;
+}
+
+a:hover {
+  color: $medium;
+}

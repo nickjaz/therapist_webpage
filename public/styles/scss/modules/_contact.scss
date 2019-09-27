@@ -1,0 +1,33 @@
+/* contact */
+
+.contact {
+  background-color: $tertiary-color;
+
+  li,  a {
+    color: $dark;
+  }
+
+  li:hover, a:hover {
+    color: $medium;
+  }
+}
+
+.contact_info {
+  list-style: none;
+  margin-top: $vert-sm;
+  font-size: 6vw;
+}
+
+.footer_image {
+  background: url(../../../images/old_tree.jpg) #666 no-repeat;
+  background-position-y: 35%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+  position: relative;
+  margin-top: $vert-lg * 2;
+}
