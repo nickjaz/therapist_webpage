@@ -156,6 +156,10 @@ nav ul li a {
       margin-top: $vert-sm;
       font-size: 5.5vw;
     }
+
+    .square {
+      top: 12vw;
+    }
   }
 }
 
@@ -239,5 +243,128 @@ nav ul li a {
 }
 
 @media only screen and (min-width: 1280px) {
-  
+  section {
+    padding-top: 3%;
+  }
+
+  nav {
+    height: 6%;
+  }
+
+  nav ul li {
+    margin-top: 1%;
+    font-size: 1.5vw;
+  }
+
+  .page_header {
+    margin-top: $vert-sm / 2;
+    font-size: 5vw;
+  }
+
+  .divider {
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  .home {
+    .page_header {
+      margin-top: $vert-sm / 2;
+    }
+
+    .hero_image {
+      background-position-y: 50%;
+    }
+
+    .hero_description_container {
+      margin-top: $vert-sm / 4;
+      font-size: 2vw;
+    }
+
+    .hero_media_container {
+      margin-top: $vert-sm / 2;
+    }
+
+    .media_item {
+      height: 3vw;
+      width: 3vw;
+      font-size: 2vw;
+    }
+
+    .media_icon {
+      margin-top: .75vw;
+    }
+  }
+
+  .services {
+    .services_description {
+      height: 24%;
+      margin-top: $vert-sm / 4;
+      font-size: 2.5vw;
+    }
+
+    .square {
+      height: 18vw;
+      width: 18vw;
+      top: 2vw;
+    }
+
+    .one {
+      left: 16vw;
+    }
+
+    .two {
+      left: 41vw;
+    }
+
+    .three {
+      right: 16vw;
+    }
+
+    .cover_text{
+      top: 7vw;
+    }
+  }
+
+  .about {
+    .column_left {
+      width: 50%;
+      float: left;
+    }
+
+    .about_first {
+      width: 100%;
+      margin-top: $vert-sm / 2;
+      font-size: 3vw;
+    }
+
+    .divider_two {
+      margin: $vert-sm / 2 auto;
+    }
+
+    .about_second {
+      width: 100%;
+      margin-top: $vert-sm / 2;
+      font-size: 2.5vw;
+    }
+
+    .column_right {
+      width: 50%;
+      float: right;
+    }
+
+    .about_third {
+      width: 90%;
+    }
+  }
+
+  .contact {
+    .contact_info {
+      font-size: 2.5vw;
+      margin-top: $vert-sm /2;
+    }
+
+    .footer_image {
+      margin-top: $vert-sm;
+    }
+  }
 }

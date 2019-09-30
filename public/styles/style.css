@@ -130,7 +130,9 @@ nav ul li a {
 
   .services .services_description {
     margin-top: 5%;
-    font-size: 5.5vw; } }
+    font-size: 5.5vw; }
+  .services .square {
+    top: 12vw; } }
 @media only screen and (min-width: 768px) {
   .menu_icon {
     display: none; }
@@ -178,6 +180,82 @@ nav ul li a {
     font-size: 4.5vw; }
   .about .about_third {
     width: 50vw; } }
+@media only screen and (min-width: 1280px) {
+  section {
+    padding-top: 3%; }
+
+  nav {
+    height: 6%; }
+
+  nav ul li {
+    margin-top: 1%;
+    font-size: 1.5vw; }
+
+  .page_header {
+    margin-top: 2.5%;
+    font-size: 5vw; }
+
+  .divider {
+    width: 45%;
+    margin: 0 auto; }
+
+  .home .page_header {
+    margin-top: 2.5%; }
+  .home .hero_image {
+    background-position-y: 50%; }
+  .home .hero_description_container {
+    margin-top: 1.25%;
+    font-size: 2vw; }
+  .home .hero_media_container {
+    margin-top: 2.5%; }
+  .home .media_item {
+    height: 3vw;
+    width: 3vw;
+    font-size: 2vw; }
+  .home .media_icon {
+    margin-top: .75vw; }
+
+  .services .services_description {
+    height: 24%;
+    margin-top: 1.25%;
+    font-size: 2.5vw; }
+  .services .square {
+    height: 18vw;
+    width: 18vw;
+    top: 2vw; }
+  .services .one {
+    left: 16vw; }
+  .services .two {
+    left: 41vw; }
+  .services .three {
+    right: 16vw; }
+  .services .cover_text {
+    top: 7vw; }
+
+  .about .column_left {
+    width: 50%;
+    float: left; }
+  .about .about_first {
+    width: 100%;
+    margin-top: 2.5%;
+    font-size: 3vw; }
+  .about .divider_two {
+    margin: 2.5% auto; }
+  .about .about_second {
+    width: 100%;
+    margin-top: 2.5%;
+    font-size: 2.5vw; }
+  .about .column_right {
+    width: 50%;
+    float: right; }
+  .about .about_third {
+    width: 90%; }
+
+  .contact .contact_info {
+    font-size: 2.5vw;
+    margin-top: 2.5%; }
+  .contact .footer_image {
+    margin-top: 5%; } }
 /* about */
 .about {
   background-color: #F9E27D; }
@@ -202,7 +280,7 @@ nav ul li a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   height: 5vw;
   width: 50%;
   position: relative;
@@ -320,7 +398,7 @@ nav ul li a {
   position: absolute;
   height: 27vw;
   width: 27vw;
-  top: 6vh; }
+  top: 16vw; }
 
 .one {
   left: 2vw; }
