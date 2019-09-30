@@ -2,10 +2,19 @@
   "name": "therapist_webpage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "css-scroll-snap-polyfill": "^0.1.2",
+    "express": "^4.16.4",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "DEBUG='therapy*' nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG='therapy*' node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,12 +26,5 @@
   "bugs": {
     "url": "https://github.com/nickjaz/therapist_webpage/issues"
   },
-  "homepage": "https://github.com/nickjaz/therapist_webpage#readme",
-  "dependencies": {
-    "debug": "^4.1.1",
-    "express": "^4.16.4",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "lodash": "^4.17.11"
-  }
+  "homepage": "https://github.com/nickjaz/therapist_webpage#readme"
 }
